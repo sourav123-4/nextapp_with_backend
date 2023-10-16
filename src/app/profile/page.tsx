@@ -3,7 +3,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 import React from "react";
 
-function profilePage() {
+function ProfilePage() {
   const router = useRouter();
   const onLogout = async () => {
     await axios.get("/api/users/logout")
@@ -22,4 +22,4 @@ function profilePage() {
   );
 }
 
-export default profilePage;
+export default ProfilePage;

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { toast } from "react-hot-toast";
 
-function signUp() {
+function SignUp() {
   const router = useRouter();
   const [user, setUser] = useState({
     userName: "",
@@ -64,4 +64,4 @@ function signUp() {
   );
 }
 
-export default signUp;
+export default SignUp;
